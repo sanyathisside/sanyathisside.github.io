@@ -507,7 +507,7 @@ function App() {
       path: '/about',
       description: 'Get information about me',
       response: {
-        name: 'Sanya Kumari',
+        name: 'Sanya Baranwal',
         location: 'Bangalore, India',
         birthdate: '25 Aug',
         profession: 'Software Developer',
@@ -533,9 +533,18 @@ function App() {
       response: {
         experience: [
           {
+            company: 'Deel',
+            position: 'Software Engineer',
+            duration: `Sep 2025 - Present · ${calculateDurationFromStart('Sep 2025')}`,
+            location: 'Remote',
+            locationType: 'Remote',
+            employmentType: 'Full-time',
+            skills: []
+          },
+          {
             company: 'Powerplay',
             position: 'Senior Software Engineer',
-            duration: `Jul 2024 - Present · ${calculateDurationFromStart('Jul 2024')}`,
+            duration: `Jul 2024 - Jul 2025 · ${calculateDurationFromStart('Jul 2024')}`,
             location: 'Bengaluru, Karnataka, India',
             locationType: 'On-site',
             employmentType: 'Full-time',
